@@ -1,3 +1,7 @@
+git add .
+git commit -m "Przeniesiono index.html do katalogu głównego"
+git push
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
