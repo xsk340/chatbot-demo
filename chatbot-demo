@@ -1,5 +1,6 @@
+cd "D:\chatbot-demo"
 git add .
-git commit -m "Przeniesiono index.html do katalogu głównego"
+git commit -m "Poprawiono nazwę pliku na index.html"
 git push
 
 <!DOCTYPE html>
