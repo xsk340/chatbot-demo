@@ -1,1 +1,124 @@
+cd "D:\chatbot-demo" git add . git commit -m "Poprawiono nazwę pliku na index.html" git push
+```)  
+to wygląda na przypadkowo **wklejony tekst z terminala do pliku HTML** – najprawdopodobniej na początku pliku `index.html`.
 
+### ✅ Jak to usunąć:
+
+1. Otwórz plik `index.html` w dowolnym edytorze kodu (np. Notepad++, VS Code, nawet Notatnik).
+2. **Na samej górze** pliku powinieneś zobaczyć ten tekst:
+   ```bash
+   cd "D:\chatbot-demo" git add . git commit -m "Poprawiono nazwę pliku na index.html" git push
+cd "D:\chatbot-demo" git add . git commit -m "Poprawiono nazwę pliku na index.html" git push
+```)  
+to wygląda na przypadkowo **wklejony tekst z terminala do pliku HTML** – najprawdopodobniej na początku pliku `index.html`.
+
+### ✅ Jak to usunąć:
+
+1. Otwórz plik `index.html` w dowolnym edytorze kodu (np. Notepad++, VS Code, nawet Notatnik).
+2. **Na samej górze** pliku powinieneś zobaczyć ten tekst:
+   ```bash
+   cd "D:\chatbot-demo" git add . git commit -m "Poprawiono nazwę pliku na index.html" git push
+
+cd "D:\chatbot-demo"
+git add .
+git commit -m "Poprawiono nazwę pliku na index.html"
+git push
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Chatbota AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .chat-sim {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .chat-message {
+      margin: 10px 0;
+    }
+    .bot { color: #1e90ff; font-weight: bold; }
+    .user { color: #333; margin-left: 20px; }
+    .cta {
+      background-color: #1e90ff;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .cta:hover {
+      background-color: #0f78d0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Demo Chatbota AI</h1>
+    <p>Twój Wirtualny Asystent do Obsługi Klienta – 24/7</p>
+  </header>
+  <main>
+    <section>
+      <h2>Jak to działa?</h2>
+      <p>Chatbot AI może odpowiadać na pytania klientów, umawiać wizyty, informować o godzinach otwarcia i wiele więcej – automatycznie, o każdej porze.</p>
+    </section>
+
+    <section class="chat-sim">
+      <h3>Przykładowa rozmowa:</h3>
+      <div class="chat-message bot">🤖 Chatbot: W czym mogę pomóc?</div>
+      <div class="chat-message user">👤 Klient: Chciałbym dowiedzieć się, czy dziś jesteście otwarci.</div>
+      <div class="chat-message bot">🤖 Chatbot: Tak! Dziś pracujemy od 9:00 do 17:00. Czy chcesz umówić wizytę?</div>
+      <div class="chat-message user">👤 Klient: Tak, na 14:00.</div>
+      <div class="chat-message bot">🤖 Chatbot: Super, zarezerwowałem wizytę na godzinę 14:00. Do zobaczenia!</div>
+    </section>
+
+    <section>
+      <h2>Korzyści dla Twojej Firmy</h2>
+      <ul>
+        <li>✅ Odpowiada natychmiastowo – 24/7</li>
+        <li>✅ Odciąża personel</li>
+        <li>✅ Poprawia jakość obsługi klienta</li>
+        <li>✅ Może działać na stronie, Facebooku, Messengerze i WhatsApp</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Zainteresowany?</h2>
+      <p>Skontaktuj się, aby wdrożyć podobnego chatbota w swojej firmie!</p>
+      <button class="cta" onclick="alert('Można tu podpiąć formularz lub kontakt do Ciebie')">Zamów chatbota</button>
+    </section>
+  </main>
+</body>
+</html>
